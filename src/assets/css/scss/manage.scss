@@ -1,0 +1,31 @@
+html, body, #vhrweb, #manage-ctx, .el-container{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+
+  .el-container{
+    .el-aside {
+      background-color: #545c64;
+      overflow-x: hidden;
+      .el-menu{
+        border: 0
+      }
+    }
+    .el-container{
+      .el-header{
+        padding: 0;
+        background-color: #fffffff5;
+        border-bottom: 1px solid rgba(0,0,0,.1);
+
+        .head-ctx{
+          margin: 20px;
+        }
+      }
+      .el-main{
+        padding: 0;
+        margin: 20px;
+      }
+    }
+  }
+}
